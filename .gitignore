@@ -1,0 +1,9 @@
+# Mac OS
+.DS_Store
+
+# Webpack Bundles
+client.bundle.js
+server.bundle.js
+
+# Libs
+node_modules

@@ -1,0 +1,32 @@
+/* -----------------------------------------------------
+* VARIABLES
+*/
+@import "variables";
+
+/* -----------------------------------------------------
+* BOARD
+*/
+.board {
+  background: $blue-grey-4;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0.625rem 2rem rgba(0,0,0,0.8);
+}
+
+.tile {
+  background: $blue-2;
+  border: 1px solid $blue;
+  color: $blue-2;
+  text-shadow: $super-slight-shadow;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  // padding: 0.125rem;
+}
+
+.tile:hover {
+  box-shadow: inset 0 .25rem 1rem rgba(0,0,0,0.4)
+}

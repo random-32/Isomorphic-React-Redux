@@ -1,0 +1,4 @@
+export default {
+  TILE_CLICKED: 'TILE_CLICKED',
+  RESIZE_BOARD: 'RESIZE_BOARD',
+};
